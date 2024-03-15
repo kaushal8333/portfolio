@@ -8,6 +8,8 @@ export default function Home(){
             <div className="header-text-container">
                 <h1>Hey there, I'm Krishna kaushal</h1>
                 <h3 style={{color:"rgb(10, 55, 255)",fontWeight:"7.5rem"}}>Front-end developer</h3>
+                <button id="resumebutton">
+                    Download Resume</button>
             </div>
             <div className="header-image">
             <img src={logo} alt="profile_photo" id="profile-photo" />

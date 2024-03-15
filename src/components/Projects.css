@@ -7,17 +7,19 @@
     flex-direction: column;
 }
 .project{
-    background-color: rgba(229, 229, 229, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
     box-shadow: 2px 2px 10px 0px;
     border-radius: 40px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
     /* margin: 20px; */
-    width: 95%;
+    width: 75%;
     margin-top: 80px;
-    padding: 5%;
+    padding: 2%;
 }
 img{
     object-fit: cover;
@@ -25,9 +27,11 @@ img{
     z-index: -1;
 }
 .desc-container{
+    top: 0;
+    height: 400px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 .hover-container{

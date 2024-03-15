@@ -1,0 +1,23 @@
+.fa{    
+    padding: 10px;
+    margin: 5px;
+    font-size: 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+    transition: .5s;
+    cursor: pointer;
+}
+.contact-container{
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+}
+.fa:hover{
+    color: white;
+    background-color: black;
+}
+.head{
+    margin-top: 50px;
+    min-height: 30vh;
+    padding: 10px;
+}
