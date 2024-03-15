@@ -13,12 +13,12 @@ function App() {
       <div>
         <Home />
       </div>
-      </div>
       <div>
         <About />
         <div>
           <Projects />
         </div>
+      </div>
       </div>
     </div>
   );

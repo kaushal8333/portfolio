@@ -1,7 +1,5 @@
-import About from "./About";
-import Home from "./Home";
+
 import "./Navbar.css";
-import {BrowserRouter as Link} from "react-router-dom";
 export default function NavBar() {
     return (
 
@@ -13,10 +11,10 @@ export default function NavBar() {
                     </div>
                     <ul>
                         <li>
-                            <Link to={Home}>Home</Link>
+                            <a href="/" className="button">Home</a>
                         </li>
                         <li>
-                        <Link to={About}>About</Link>
+                        <a href="/">About Me</a>
                         </li>
                         <li>
                             <a href="/">Projects</a>

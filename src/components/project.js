@@ -7,7 +7,7 @@ const projects=[
         id:1,
         image:weather,
         title:"Weather app",
-        desc:"",
+        desc:"A weather application built using react js that shows the weather updates of the city you enter using weather api."
     },
     {
         id:2,

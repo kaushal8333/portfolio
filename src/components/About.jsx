@@ -22,9 +22,9 @@ export default function About() {
             <h1>About Me</h1>
             <div className="outer-container">
                 {education.map((editem, index) => (
-                    <div className="about-container">
+                    <div className="about-container" key={editem.id}>
                         {checker.index === index ?
-                            <div className="ed-container" key={editem.id}>
+                            <div className="ed-container" >
                                 <h1>{editem.heading}</h1>
                                 <h4>{editem.timeline}</h4>
                                 <p>{editem.description}</p>
