@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    margin-bottom: auto;
+    padding: 0;
+    box-sizing: border-box;
+    /* animation: fade-in 1.5s; */
+    font-family: 'Space Grotesk Web',sans-serif;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    min-height: 30vh;
+    width: 100%;
+}
+
+.tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* position: fixed; */
+    background-color: rgba(255, 255, 255, 0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+    box-shadow: 0px 0px 16px 0px;
+    width: 75%;
+    margin: 20px auto;
+    margin-left: 250px;
+    margin-right: auto;
+    border-radius: 50px;
+    z-index: 10;
+}
+.navbar-container h3{
+    background-color: black;
+    color: white;
+    margin-left: 25px;
+    font-size: 1rem;
+    padding: 10px;
+    border-radius: 50%;
+}
+.navbar-container h3:hover{
+    cursor:context-menu;
+}
+ul{
+    top: 0;
+    left: 0;
+    gap: 20px;
+    display: flex;
+    padding: 14px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    padding: 12px;
+    transition: all;
+    transition-duration: 0.3s;
+}
+li{
+    list-style: none;
+}
+li a:hover{
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    border-radius: 5px;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

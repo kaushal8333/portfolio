@@ -1,0 +1,46 @@
+#profile-photo{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    right: 20px;
+    float: right;
+    transition: all;
+    transition-duration: 0.4s;
+}
+.header-image::before{
+    content: '';
+    /* padding-bottom: 75%; */
+    height: 0;
+    display: block;
+}
+#profile-photo:hover{
+    transform: scale(1.1) translateZ(0px);
+    
+}
+.header-container{
+    margin-top: 30vh;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    min-height: 50vh;
+    overflow: hidden;
+}
+.header-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    animation-name: fade-in;
+    animation-duration: 5s;
+    animation-timing-function:ease-out;
+}
+
+@keyframes fade-in {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
