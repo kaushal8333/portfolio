@@ -19,7 +19,7 @@ export default function About() {
 
     return (
         <div className="about-outer-container">
-            <h1 className="poppins-thin">About Me</h1>
+            <h1 className="poppins-thin text-brown text-7xl">About Me</h1>
             <div className="outer-container">
                 {education.map((editem, index) => (
                     <div className="about-container" key={editem.id}>

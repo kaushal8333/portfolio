@@ -1,3 +1,4 @@
+import Home from "./Home";
 
 import "./Navbar.css";
 export default function NavBar() {
@@ -11,16 +12,16 @@ export default function NavBar() {
                     </div>
                     <ul>
                         <li>
-                            <a href="/" className="button md:ml-20 px-4">Home</a>
+                            <a href={<Home />} className="button md:ml-20 sm:p-3">Home</a>
                         </li>
                         <li>
-                        <a href="/">About Me</a>
+                        <a href="/" className="sm:p-3">About Me</a>
                         </li>
                         <li>
-                            <a href="/">Projects</a>
+                            <a href="/" className="sm:p-3">Projects</a>
                         </li>
                         <li>
-                            <a href="/">Contact Me</a>
+                            <a href="/" className="sm:p-3">Contact Me</a>
                         </li>
                     </ul>
                 </div>
