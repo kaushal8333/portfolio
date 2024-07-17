@@ -1,6 +1,6 @@
 import Home from "./Home";
-
 import "./Navbar.css";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 export default function NavBar() {
     return (
 
@@ -10,19 +10,25 @@ export default function NavBar() {
                     <div className="heading">
                         <h3>KK</h3>
                     </div>
-                    <ul>
+                    <ul className="p-1 gap-2 sm:gap-[14px]">
                         <li>
-                            <a href={<Home />} className="button md:ml-20 sm:p-3">Home</a>
+                            <AnchorLink href="#home">
+                                <a className="p-1 sm:p-3">Home</a>
+                            </AnchorLink>
                         </li>
                         <li>
-                        <a href="/" className="sm:p-3">About Me</a>
+                        <AnchorLink href="#about">
+                                <a className="p-1 sm:p-3">About Me</a>
+                            </AnchorLink>
                         </li>
                         <li>
-                            <a href="/" className="sm:p-3">Projects</a>
-                        </li>
+                        <AnchorLink href="#projects">
+                                <a className="p-1 sm:p-3">Projects</a>
+                            </AnchorLink>                        </li>
                         <li>
-                            <a href="/" className="sm:p-3">Contact Me</a>
-                        </li>
+                        <AnchorLink href="#contact">
+                                <a className="p-1 sm:p-3">Contact Me</a>
+                            </AnchorLink>                        </li>
                     </ul>
                 </div>
 

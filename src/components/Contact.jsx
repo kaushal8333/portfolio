@@ -1,7 +1,7 @@
 import "./Contact.css"
 export default function Contact(){
     return(
-        <div className="head">
+        <div className="head" id="contact">
             <h1 className="poppins-thin text-brown text-7xl">Let's connect!</h1>
         <div className="contact-container ">
             

@@ -5,7 +5,7 @@ import "../App.css";
 export default function React(){
 
 return (
-<div className="vertical-container">
+<div className="vertical-container" id='about'>
     <h3 className='p-5 text-brown poppins-thin text-7xl'>About Me</h3>
 
 <VerticalTimeline>

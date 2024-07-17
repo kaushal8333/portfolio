@@ -6,7 +6,7 @@ export default function Projects() {
 
     const [enter, setEnter] = useState(null);
     return (
-        <div className="project-container">
+        <div className="project-container" id="projects">
             <h1 style={{ display: "flex" }} className="poppins-thin text-brown text-7xl mt-10 ml-10">Projects</h1>
             {project && project.map((proitem, index) => (
                 <div className="project" key={proitem.id} >
