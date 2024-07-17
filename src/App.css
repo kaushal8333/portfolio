@@ -1,4 +1,5 @@
 .App {
+  /* background-color: #1F2833; */
   display: flex;
   flex-direction: column;
   min-height: 100vh;
@@ -9,14 +10,14 @@
 
 }
 
-@keyframes dynamic {
+/* @keyframes dynamic {
   from{
     opacity: 0;
   }
   to{
     opacity: 1;
   }
-}
+} */
 
 
 

@@ -5,13 +5,13 @@ export default function NavBar() {
 
         <div className="container">
             <div className="tags">
-                <div className="navbar-container">
+                <div className="navbar-container lg:ml-72 lg:w-3/4 lg:mr-auto mr-auto mt-5 p-3 flex justify-between items-center md:ml-32 sm:ml-auto sm:mr-auto">
                     <div className="heading">
                         <h3>KK</h3>
                     </div>
                     <ul>
                         <li>
-                            <a href="/" className="button">Home</a>
+                            <a href="/" className="button md:ml-20 px-4">Home</a>
                         </li>
                         <li>
                         <a href="/">About Me</a>
